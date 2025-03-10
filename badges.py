@@ -1,11 +1,11 @@
 total = int(input('how much badges do you want buy'))
-tickets = float(0.25)
+badge = float(0.25)
 
 if total >= 150:
-    cost = float(total*tickets)
-    tax = float(cost*0.1)
-    print('your total is £',(float(cost-tax)))
+    cost = float(total*badge)
+    discount = float(cost*0.1)
+    print('your total is £',(float(cost-discount)))
 else:
     if total < 150:
-        print(float(total*tickets))
+        print(float(total*badge))
         

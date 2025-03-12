@@ -1,15 +1,15 @@
 # Program 4 - Investigate and modify
 import random
 
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-random.shuffle(arr)
-rightnumber = random.choice(arr)
 
+rightnumber = random.randint(1,1)
+name = input("What is your name? ")
 guess = 1
 number = int(input("Guess a number: "))
-while (guess < 3) and (number != rightnumber):
+while (guess < 10) and (number != rightnumber):
   print("Not right. Try again.")
   number = int(input("Guess a number: "))
   guess = guess + 1
 if number == rightnumber:
-  print("Well done! You guessed the right number.")
+  arr = ["Well done","Good job","You got it","You are a genius","You are a mastermind","You are a wizard","You are a psychic","You are a mind reader","You are a fortune teller","You are a seer","You are a"]
+  print(random.choice(arr),name)

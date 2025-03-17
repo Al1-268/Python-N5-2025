@@ -1,0 +1,5 @@
+cost = float(input("Enter the cost of the item: "))
+noPounds = round(cost+1)
+print("You need to give the cashier", noPounds, "pounds")
+print("You will need £"+str(noPounds))
+print("And you will get "+str(round(noPounds-cost, 2))+"p change")

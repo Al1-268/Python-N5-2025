@@ -9,9 +9,18 @@ while True:
     key = input("enter one of the following keys: q,w,x")
     if key == "q":
         home = home + 1
+        print("home team: ",home)
+        print("away team: ",away)
+            
     elif key == "w":
         away = away + 1
+        print("home team: ",home)
+        print("away team: ",away)
+            
     elif key == "x":
+        
             print("home team: ",home)
             print("away team: ",away)
+            print("session ended")
+            break
             

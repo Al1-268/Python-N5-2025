@@ -62,3 +62,7 @@ else:
     print("ok")
     time.sleep(1)
     print("goodbye")
+    time.sleep(1)
+    print("have a nice day")
+    time.sleep(1)
+    print("goodbye") 

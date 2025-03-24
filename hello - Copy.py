@@ -10,4 +10,4 @@ print ('Your name is', name)
 
 print (name,'is',age,'years old')
 
-print (name"'s",favourite colour is ,color)
+print(name + "'s favourite colour is " + color)

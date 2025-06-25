@@ -1,5 +1,5 @@
 names =  ['flour','sugar','eggs','butter','chocolate','vanilla']
-ing = [100,100,2,50,50,10]
+ing = [200,200,2,100,50,10]
 newingredients = []
 
 scale = 6/4
